@@ -94,6 +94,7 @@ section {
     padding:0px 5px;
       justify-content: center;
   align-items: center;
+  
 }
 .cards {
     background: #511F50;
@@ -177,16 +178,31 @@ section {
         font-size: 2rem;
     }
     .rating img {
-        width:30px;
+        width:25px;
+        align-content: center;
+        justify-content: center;
+
+    }
+    .rating {
+        text-align: center;
+        
+    }
+    .rating h5 {
+        font-size: 1em;
+        margin-left:0px ;
     }
     .rating {
         font-size: 0.8em;
         padding:0px;
-        display:block;
+        display: block;
+        margin: 0 autos;
         
     }
     .stars{
         margin-bottom: 10px;
+        justify-content: center;
+        align-content: center;
+        
         
     }
 
@@ -202,6 +218,7 @@ section {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        width: 90vw;
        
     
     }
