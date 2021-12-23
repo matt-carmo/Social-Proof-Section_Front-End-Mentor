@@ -168,6 +168,7 @@ section {
         justify-content: center;
         align-items: center;
         margin-top: -60px;
+        
     }
     .container {
         text-align: center;
@@ -185,7 +186,9 @@ section {
     }
     .rating {
         text-align: center;
-        
+        width: 250px;
+        justify-content: center;
+        align-content: center;
     }
     .rating h5 {
         font-size: 1em;
