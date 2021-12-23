@@ -20,10 +20,10 @@ body {
     
 }
 section {
-    margin-top: 90px;
+    margin-top: 4em;
 }
+
 .main { 
-  
     margin-right: 15em;
     padding-left: 15em;
     display: flex;
@@ -36,7 +36,7 @@ section {
     color: #4D1D4D;
 }
 .container {
-    padding-top: 3em;
+    padding-top: 2em;
     display: grid;
     grid-template-columns: 2fr 3fr;    
 }
@@ -45,12 +45,11 @@ section {
     color: 		#8a8a8a;
 }
 .container-1 {
-  
+
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center ;
-    
+    align-items:center    
 
 }
 .rating {  
@@ -58,27 +57,30 @@ section {
     border: 20px solid #F7F2F8;
     background: #F7F2F8;
     border-radius: 5px;
-   
-
+    margin: 10px;
+    
     color: #492649;
     font-weight: 700;   
-    font-size: 1.2rem;   
+    font-size: 1.rem;   
        
+}
+
+
+.rating h5 {
+    margin-left:30px ;
 }
 .container-2 {
     display: flex;
+    
 
 }
 .box-2{
-    margin-left: 10px;
+    margin-left: 100px;
     
 }
-.rating h5 {
-    padding-top: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-;
+.box-3 {
+    margin-left: 200px;
+    
 }
 .stars {
    
