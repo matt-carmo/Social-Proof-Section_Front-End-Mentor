@@ -194,8 +194,8 @@ body {
         display: block;            
     }
     .attribution {
-        position: absolute;
-        bottom: -140vh;
+        position: relative;
+        bottom: -70px;
     }
 
     
